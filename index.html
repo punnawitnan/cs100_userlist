@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>User List</title>
   </head>
+
   <body>
     <header class="mb-5">
       <div class="container mt-5">
@@ -18,7 +19,6 @@
               data-bs-theme-value="dark">
               Dark
             </button>
-
             <button
               class="btn btn-light btn-sm"
               data-bs-theme-value="light">
@@ -26,9 +26,7 @@
             </button>
           </div>
         </div>
-
         <h1 class="mb-4">Users</h1>
-
         <div class="row">
           <div class="col-md-4">
             <input
@@ -36,33 +34,165 @@
               class="form-control form-control-lg"
               placeholder="Search Users">
           </div>
-
           <div class="col-md-8 user-menu d-flex justify-content-end align-items-center">
             <ul class="nav">
               <li class="nav-item">
                 <a class="nav-link" href="#">Reputation</a>
               </li>
-
               <li class="nav-item">
-                <a class="nav-link text-bg-primary rounded-3" href="#">New Users</a>
+                <a class="nav-link text-bg-primary rounded-3" href="#">
+                  New Users
+                </a>
               </li>
-
               <li class="nav-item">
                 <a class="nav-link" href="#">Editors</a>
               </li>
-
               <li class="nav-item">
                 <a class="nav-link" href="#">Moderators</a>
               </li>
             </ul>
           </div>
-        </div> 
+        </div>
       </div>
-    </header> 
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/75.jpg"
+                      alt=""
+                      class="rounded-circle img-fluid">
+                  </div>
+                  <div class="user-info">
+                    <h4>John Doe</h4>
+                    <h6>Troy, MI</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sport</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/women/75.jpg"
+                      alt=""
+                      class="rounded-circle img-fluid">
+                  </div>
+                  <div class="user-info">
+                    <h4>Lehla Nichols</h4>
+                    <h6>Fort Worth, TX</h6>
+                    <span class="badge bg-primary">Fashion</span>
+                    <span class="badge bg-primary">STEM</span>
+                    <span class="badge bg-primary">Architecture</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/women/44.jpg"
+                      alt=""
+                      class="rounded-circle img-fluid">
+                  </div>
+                  <div class="user-info">
+                    <h4>Annie Rice</h4>
+                    <h6>Troy, MI</h6>
+                    <span class="badge bg-primary">Electronic</span>
+                    <span class="badge bg-primary">Tech</span>
+                    <span class="badge bg-primary">Music</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/51.jpg"
+                      alt=""
+                      class="rounded-circle img-fluid">
+                  </div>
+                  <div class="user-info">
+                    <h4>Henry Thomas</h4>
+                    <h6>Manhattan, New York</h6>
+                    <span class="badge bg-primary">Coding</span>
+                    <span class="badge bg-primary">Gaming</span>
+                    <span class="badge bg-primary">Music</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/49.jpg"
+                      alt=""
+                      class="rounded-circle img-fluid">
+                  </div>
+                  <div class="user-info">
+                    <h4>Soham Lowe</h4>
+                    <h6>Denton, Texas</h6>
+                    <span class="badge bg-primary">Coding</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Gaming</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/women/93.jpg"
+                      alt=""
+                      class="rounded-circle img-fluid">
+                  </div>
+                  <div class="user-info">
+                    <h4>Pamela Ortiz</h4>
+                    <h6>Duncan, Ok</h6>
+                    <span class="badge bg-primary">Art</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Music</span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/darkmodetoggle.js"></script>
-    
+
   </body>
-  
 </html>
