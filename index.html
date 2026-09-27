@@ -9,9 +9,43 @@
     <title>User List</title>
   </head>
   <body>
-    <h1>User</h1>
+    <header class="mb-5">
+      <div class="container mt-5">
+        <div class="d-flex justify-content-end">
+          <div class="btn-group">
+            <button
+              class="btn btn-secondary btn-sm"
+              data-bs-theme-value="dark">
+              Dark
+            </button>
+
+            <button
+              class="btn btn-light btn-sm"
+              data-bs-theme-value="light">
+              Light
+            </button>
+          </div>
+        </div>
+
+        <h1 class="mb-4">Users</h1>
+
+        <div class="row">
+          <div class="col-md-4">
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              placeholder="Search Users">
+          </div>
+
+          <div class="col-md-8">
+          </div>
+        </div>
+      </div>
+    </header>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/darkmodetoggle.js"></script>
+    
   </body>
   
 </html>
